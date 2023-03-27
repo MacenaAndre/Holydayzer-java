@@ -3,7 +3,7 @@ public class Date {
     private String month;
     private String year;
   
-    void splitDate(String date) {
+    protected void splitDate(String date) {
         String[] parts = date.split("/");
         
         this.day = parts[0];
@@ -12,15 +12,15 @@ public class Date {
              
     }
   
-    String getDay() {
+    protected String getDay() {
         return this.day;
     }
   
-    String getMonth() {
+    protected String getMonth() {
         return this.month;
     }
   
-    String getYear() {
+    protected String getYear() {
         return this.year;
     }
   }
