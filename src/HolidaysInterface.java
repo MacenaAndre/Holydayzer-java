@@ -1,4 +1,4 @@
-public interface HolydaysInterface {
+public interface HolidaysInterface {
     String[] dates = {
         "01/01/2023",
         "21/02/2023",
